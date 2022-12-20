@@ -42,3 +42,7 @@ C) Opinião geral sobre o experimento
 Encontrei uma certa dificuldade para iniciar esse laboratório. Rever o conteúdo de MPI e algumas soluções prévias foi fundamental para que eu relembrasse como abordar toda esse estrutura. De um lado, gostei de fazer esse laboratório justamente porque (ao meu ver) consegui realizar o que foi pedido e revisei um conteúdo que já havia estudado no início da disciplina. Realizar em uma máquina me deu a oportunidade de fazer isso mais rapidamente, mais por conta desse tratamento que consegui dar a apenas 1 arquivo (em comunhão com o .txt) e fazer essa solução rodar.
 
 Uma dificuldade encontrada foi que tive problemas de compilação na minha máquina que não consegui resolver. Minha solução foi trocar de máquina para que pudesse compilar e rodar o código, a fim de testar minha solução a cada vez que o alterava.
+
+## Imagem do relatório
+
+![img1](./img1.jpeg)
