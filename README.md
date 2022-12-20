@@ -26,8 +26,8 @@ B) Descrição da solução
 A solução possui uma estrutura baseada em arquivos txt que é passada como parâmetro no código.
 Para rodar, é necessário fazer o clone do repositório e rodar os comandos:
 
-mpicc -o a a.c
-mpirun -np 5 ./a input.txt
+- mpicc -o a a.c
+- mpirun -np 5 ./a input.txt
 
 Falando a utilização do MPI, utilizei um vetor para que ele consiga fazer a contagem de quantas palavras menores que 6 caracteres (6 bytes), quantas palavras entre 7 e 10 (de 7 a 10 bytes) e quantas palavras acima de 10 caracteres (11 bytes +), armazenando assim na posição 0, 1 e 2, respectivamente.
 
