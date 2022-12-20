@@ -23,7 +23,7 @@ da entrega
 
 B) Descrição da solução
 
- - A solução possui uma estrutura baseada em arquivos txt que é passada como parâmetro no código.
+A solução possui uma estrutura baseada em arquivos txt que é passada como parâmetro no código.
 Para rodar, é necessário fazer o clone do repositório e rodar os comandos:
 
 mpicc -o a a.c
@@ -37,6 +37,8 @@ Em relação ao buffer, o iniciei em 128 (na verdade foi 32, mas antes de inicia
 
 Ao final, quando ele atinge um limite de leitura, ele volta para o buffer de 128, faz a leitura novamente e só então finaliza o MPI.
 
-C) Encontrei uma certa dificuldade para iniciar esse laboratório. Rever o conteúdo de MPI e algumas soluções prévias foi fundamental para que eu relembrasse como abordar toda esse estrutura. De um lado, gostei de fazer esse laboratório justamente porque (ao meu ver) consegui realizar o que foi pedido e revisei um conteúdo que já havia estudado no início da disciplina. Realizar em uma máquina me deu a oportunidade de fazer isso mais rapidamente, mais por conta desse tratamento que consegui dar a apenas 1 arquivo (em comunhão com o .txt) e fazer essa solução rodar.
+C) Opinião geral sobre o experimento
+
+Encontrei uma certa dificuldade para iniciar esse laboratório. Rever o conteúdo de MPI e algumas soluções prévias foi fundamental para que eu relembrasse como abordar toda esse estrutura. De um lado, gostei de fazer esse laboratório justamente porque (ao meu ver) consegui realizar o que foi pedido e revisei um conteúdo que já havia estudado no início da disciplina. Realizar em uma máquina me deu a oportunidade de fazer isso mais rapidamente, mais por conta desse tratamento que consegui dar a apenas 1 arquivo (em comunhão com o .txt) e fazer essa solução rodar.
 
 Uma dificuldade encontrada foi que tive problemas de compilação na minha máquina que não consegui resolver. Minha solução foi trocar de máquina para que pudesse compilar e rodar o código, a fim de testar minha solução a cada vez que o alterava.
